@@ -26,6 +26,9 @@
     return self;
 }
 
+- (void)layoutSubviews {
+    NSLog(@"BFLearn UI View Layout SubView calling");
+}
 
 - (NSInteger)indexOfString:(NSString *)astring {
     

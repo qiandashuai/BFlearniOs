@@ -11,7 +11,7 @@
 
 @interface BFLearnIGlistLabelCollectionViewCell()
 
-@property(nonatomic, strong)UIImageView *imageView;
+@property(nonatomic, strong)UILabel *tipLabel;
 
 @end
 
@@ -28,14 +28,8 @@
 
 - (void)commonInit {
     
-    self.contentView.backgroundColor = [UIColor whiteColor];
-    self.imageView = [UIImageView new];
-    [self.contentView addSubview:self.imageView];
+    self.tipLabel = [[UILabel alloc]init];
     
-    self.imageView.image = [UIImage imageNamed:@"testxiaohei"];
-    [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.contentView);
-    }];
 }
 
 @end

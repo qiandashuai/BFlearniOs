@@ -14,8 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 // NSError
 
-+ (BOOL)bf_swizzleMethod:(SEL)origSel withMethod:(SEL)altSel_ error:(NSError **)error;
-+ (BOOL)bf_swizzleClassMethod:(SEL)origSel_ withClassMethod:(SEL)altSel_ error:(NSError **)error_;
++ (BOOL)bf_swizzleClassMethod:(SEL)origSel withClassMethod:(SEL)altSel error:(NSError **)error;
+- (BOOL)bf_swizzleInstnceMethod:(SEL)origSel withMethod:(SEL)altSel error:(NSError **)error;
 
 @end
 

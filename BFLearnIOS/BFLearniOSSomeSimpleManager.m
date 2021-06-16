@@ -8,6 +8,7 @@
 
 #import "BFLearniOSSomeSimpleManager.h"
 
+
 @interface BFLearniOSSomeSimpleManager()
 
 //@property(nonatomic,strong)
@@ -19,5 +20,7 @@
 //+ (instancetype)shareInstance {
 //    dispatch_once(dispatch_once_t * _Nonnull predicate, <#^(void)block#>)
 //}
+
+
 
 @end

@@ -29,7 +29,7 @@
 - (void)setupUI {
     
     UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
-    
+    layout.estimatedItemSize = CGSizeMake(100, 100);
     self.collectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:layout];
     [self.view addSubview:self.collectionView];
     

@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+extern NSString * const kCURRENTSTRING = @"current string";
+
 @interface BFLearniOSSomeSimpleManager : NSObject
 
 @end

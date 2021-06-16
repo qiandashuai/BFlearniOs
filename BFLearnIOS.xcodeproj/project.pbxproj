@@ -20,11 +20,13 @@
 		4D10CC90256F514B00D75C76 /* UIView+Radius.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10CC8C256F514A00D75C76 /* UIView+Radius.m */; };
 		4D10CC91256F514B00D75C76 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10CC8D256F514A00D75C76 /* NSObject+Swizzle.m */; };
 		4D10CC92256F514B00D75C76 /* UITableView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10CC8F256F514B00D75C76 /* UITableView+CornerRadius.m */; };
+		4D1DFBF02664E5C5000ED8E8 /* BFValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DFBEF2664E5C5000ED8E8 /* BFValidator.m */; };
 		4D201E2325EF6ACD0069DF7F /* BFTestSwiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D201E2225EF6ACD0069DF7F /* BFTestSwiftView.swift */; };
 		4D201E2625EF7C380069DF7F /* BFTestSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D201E2525EF7C380069DF7F /* BFTestSwiftViewController.swift */; };
 		4D2BCEDC244EB4A700B3BD6C /* BFAspect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2BCEDB244EB4A700B3BD6C /* BFAspect.m */; };
 		4D2BD02E2451729700B3BD6C /* BFLearnBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2BD02D2451729700B3BD6C /* BFLearnBlock.m */; };
 		4D2BD1282452BC6400B3BD6C /* BFGCDLearnLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2BD1272452BC6300B3BD6C /* BFGCDLearnLock.m */; };
+		4D2DCB9B266626AA0076A9A2 /* BFSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DCB9A266626AA0076A9A2 /* BFSoundPlayer.m */; };
 		4D2F72DB24442793008B791F /* BFTest2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F72DA24442793008B791F /* BFTest2Runtime.m */; };
 		4D2F72E124443DA4008B791F /* UIView+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F72E024443DA4008B791F /* UIView+Color.m */; };
 		4D2F72E4244454C4008B791F /* BFUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F72E3244454C4008B791F /* BFUser.m */; };
@@ -40,11 +42,20 @@
 		4D3031F425C413C300AB1483 /* BFLGListDisplayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3031F325C413C300AB1483 /* BFLGListDisplayHandler.m */; };
 		4D324727249C89DB00BADF29 /* BFLearniOSEsayUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D324726249C89DB00BADF29 /* BFLearniOSEsayUIViewController.m */; };
 		4D32472A249C8CF100BADF29 /* BFSliceImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D324729249C8CF100BADF29 /* BFSliceImageView.m */; };
+		4D32925B265A4A6F00EF11A8 /* BFLearnSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32925A265A4A6F00EF11A8 /* BFLearnSplitViewController.swift */; };
 		4D337948249E2642003900F8 /* BFLearnMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D337947249E2642003900F8 /* BFLearnMediaViewController.m */; };
+		4D360DAB2657652F006637DC /* BFDataAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D360DAA2657652F006637DC /* BFDataAnalytics.m */; };
 		4D38082524E2735800DFE64B /* BFLearnGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D38082424E2735800DFE64B /* BFLearnGCDTimer.m */; };
 		4D3809B024E3952000DFE64B /* BFLearnCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3809AF24E3952000DFE64B /* BFLearnCacheViewController.m */; };
 		4D380AFE24E3EA3F00DFE64B /* BFLearnARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D380AFD24E3EA3E00DFE64B /* BFLearnARCViewController.m */; };
 		4D380C4C24E5292400DFE64B /* BFlearnNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D380C4B24E5292400DFE64B /* BFlearnNetworkViewController.m */; };
+		4D3FD8FB2614583900743A4D /* BFTestPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3FD8FA2614583900743A4D /* BFTestPerson.m */; };
+		4D3FD9002614584800743A4D /* BFTestEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3FD8FF2614584800743A4D /* BFTestEmployer.m */; };
+		4D3FD9042614675600743A4D /* BFTestAnimationVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3FD9032614675600743A4D /* BFTestAnimationVIew.m */; };
+		4D3FD9242616C7BC00743A4D /* BFTestCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3FD9232616C7BC00743A4D /* BFTestCollectionLayout.m */; };
+		4D3FD9282616EBBD00743A4D /* testCollectionModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D3FD9272616EBBD00743A4D /* testCollectionModel.json */; };
+		4D3FD9472616F01A00743A4D /* BFTestCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3FD9462616F01A00743A4D /* BFTestCollectionModel.m */; };
+		4D3FD94B2616F63200743A4D /* BFTestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3FD94A2616F63200743A4D /* BFTestCollectionViewCell.m */; };
 		4D4B324E2435E6A100394393 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B324D2435E6A100394393 /* AppDelegate.m */; };
 		4D4B32542435E6A100394393 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B32532435E6A100394393 /* ViewController.m */; };
 		4D4B32592435E6A200394393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4B32582435E6A200394393 /* Assets.xcassets */; };
@@ -57,7 +68,15 @@
 		4D4DA1BA25C1432000918813 /* BFLearnLabelSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4DA1B925C1432000918813 /* BFLearnLabelSectionController.m */; };
 		4D4DA1BE25C1435100918813 /* BFLearnIGlistLabelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4DA1BD25C1435100918813 /* BFLearnIGlistLabelCollectionViewCell.m */; };
 		4D4DA1C225C14A4900918813 /* BFIGlistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4DA1C125C14A4900918813 /* BFIGlistModel.m */; };
+		4D554297266374C200194C00 /* BFAutoTrackUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D554296266374C200194C00 /* BFAutoTrackUtils.m */; };
+		4D55429B2663759F00194C00 /* BFAutoTrackViewControllerProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D55429A2663759F00194C00 /* BFAutoTrackViewControllerProperty.m */; };
+		4D55429E2663775300194C00 /* BFASConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D55429D2663775300194C00 /* BFASConstant.m */; };
+		4D595422260C83A700FF4A99 /* BFLearnIGListDynamicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D595421260C83A700FF4A99 /* BFLearnIGListDynamicCollectionViewCell.swift */; };
+		4D5A1A1F2679DC6100FEDE53 /* NSObject+BFAnalyticisDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A1A1E2679DC6100FEDE53 /* NSObject+BFAnalyticisDelegate.m */; };
+		4D5A1B13267A07EC00FEDE53 /* UIView+BFAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A1B12267A07EC00FEDE53 /* UIView+BFAutoTrack.m */; };
+		4D5A1B17267A115600FEDE53 /* BFDConfigOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A1B16267A115600FEDE53 /* BFDConfigOptions.m */; };
 		4D6808CE25A30C6F00315700 /* BFLearnUIBasicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6808CD25A30C6F00315700 /* BFLearnUIBasicTestViewController.m */; };
+		4D6942F52678920200BCC8F0 /* UIGestureRecognizer+BFAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6942F42678920200BCC8F0 /* UIGestureRecognizer+BFAutoTrack.m */; };
 		4D6B6C7624DA52320018B6EC /* BFLearnUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B6C7524DA52320018B6EC /* BFLearnUIView.m */; };
 		4D6B6C7D24DA81860018B6EC /* BFLearnRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B6C7C24DA81860018B6EC /* BFLearnRootViewController.m */; };
 		4D6B6C8324DB10B30018B6EC /* BFLearnScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B6C8224DB10B30018B6EC /* BFLearnScrollViewController.m */; };
@@ -68,6 +87,9 @@
 		4D84F4BA2466A8AE00454C2D /* BFCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D84F4B92466A8AE00454C2D /* BFCollectionViewCell.swift */; };
 		4D84F4BC2466AFF400454C2D /* BFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D84F4BB2466AFF400454C2D /* BFTableViewCell.swift */; };
 		4D87FBCB251C9197004E25FB /* UITableViewCell+CellShadows.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D87FBCA251C9197004E25FB /* UITableViewCell+CellShadows.m */; };
+		4D883043260D8EE000DA07EC /* BFTestIGListKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D883042260D8EE000DA07EC /* BFTestIGListKitViewController.swift */; };
+		4D883046260DB4CF00DA07EC /* BTTestIGListKitSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D883045260DB4CF00DA07EC /* BTTestIGListKitSectionController.swift */; };
+		4D883049260DB4F400DA07EC /* BGTestIGListKItModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D883048260DB4F400DA07EC /* BGTestIGListKItModel.swift */; };
 		4D89E2CB24ECFACE007851D1 /* BFLearnSandBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D89E2CA24ECFACE007851D1 /* BFLearnSandBoxViewController.m */; };
 		4D89E2CE24ED13F1007851D1 /* BFTestFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D89E2CD24ED13F1007851D1 /* BFTestFileModel.m */; };
 		4D8A877D24C812C000DFDA4A /* BFLearnLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A877C24C812C000DFDA4A /* BFLearnLaunchViewController.m */; };
@@ -77,9 +99,16 @@
 		4D95E3E2246A359B007E6470 /* MyCatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D95E3E1246A359B007E6470 /* MyCatModel.swift */; };
 		4DAA347925187EAA002A4852 /* BFLearnGCDCommoinUnility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA347825187EAA002A4852 /* BFLearnGCDCommoinUnility.m */; };
 		4DAA562D24B89D6F00D1D412 /* BFLearnBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA562C24B89D6F00D1D412 /* BFLearnBlockViewController.m */; };
+		4DB6E255261C391700764E9D /* BFLearniOSBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6E254261C391700764E9D /* BFLearniOSBannerViewController.m */; };
+		4DB6E25F261C395300764E9D /* BFLearnBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6E25E261C395300764E9D /* BFLearnBannerView.m */; };
+		4DB6E268261C501500764E9D /* BFLearnBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6E267261C501500764E9D /* BFLearnBannerCollectionViewCell.m */; };
+		4DB6E26C261C52D800764E9D /* BFBannerPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6E26B261C52D800764E9D /* BFBannerPageControl.m */; };
+		4DB6E270261C5B5F00764E9D /* BFLearnAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6E26F261C5B5F00764E9D /* BFLearnAnimatedDotView.m */; };
 		4DBF663F2562563A00CD477A /* BFLearniOSGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF663E2562563A00CD477A /* BFLearniOSGradientLayerViewController.m */; };
 		4DBF66442562575C00CD477A /* BFGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF66432562575C00CD477A /* BFGradientView.m */; };
+		4DCAF131264688C900FD4960 /* NSArray+BFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAF130264688C900FD4960 /* NSArray+BFSafe.m */; };
 		4DD579A324597F7D00F89E81 /* BFLearniOSUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD579A224597F7D00F89E81 /* BFLearniOSUIViewController.m */; };
+		4DD7FE7726452A1400D72C6F /* Lender.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7FE7626452A1400D72C6F /* Lender.m */; };
 		4DFC8EF225357BFF0041F4F3 /* Farther+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC8EF125357BFF0041F4F3 /* Farther+Test.m */; };
 		4DFC8EF625358C0E0041F4F3 /* NSObject+BFSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC8EF525358C0E0041F4F3 /* NSObject+BFSwizzle.m */; };
 		4DFDF56E24B6F9E200167506 /* BFGCDOperationLearn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDF56D24B6F9E200167506 /* BFGCDOperationLearn.m */; };
@@ -114,6 +143,8 @@
 		4D10CC8D256F514A00D75C76 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
 		4D10CC8E256F514A00D75C76 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
 		4D10CC8F256F514B00D75C76 /* UITableView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CornerRadius.m"; sourceTree = "<group>"; };
+		4D1DFBEE2664E5C5000ED8E8 /* BFValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFValidator.h; sourceTree = "<group>"; };
+		4D1DFBEF2664E5C5000ED8E8 /* BFValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFValidator.m; sourceTree = "<group>"; };
 		4D201E2225EF6ACD0069DF7F /* BFTestSwiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFTestSwiftView.swift; sourceTree = "<group>"; };
 		4D201E2525EF7C380069DF7F /* BFTestSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFTestSwiftViewController.swift; sourceTree = "<group>"; };
 		4D2BCEDA244EB4A700B3BD6C /* BFAspect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAspect.h; sourceTree = "<group>"; };
@@ -122,6 +153,8 @@
 		4D2BD02D2451729700B3BD6C /* BFLearnBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnBlock.m; sourceTree = "<group>"; };
 		4D2BD1262452BC6300B3BD6C /* BFGCDLearnLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFGCDLearnLock.h; sourceTree = "<group>"; };
 		4D2BD1272452BC6300B3BD6C /* BFGCDLearnLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFGCDLearnLock.m; sourceTree = "<group>"; };
+		4D2DCB99266626AA0076A9A2 /* BFSoundPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFSoundPlayer.h; sourceTree = "<group>"; };
+		4D2DCB9A266626AA0076A9A2 /* BFSoundPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFSoundPlayer.m; sourceTree = "<group>"; };
 		4D2F72D924442793008B791F /* BFTest2Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTest2Runtime.h; sourceTree = "<group>"; };
 		4D2F72DA24442793008B791F /* BFTest2Runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTest2Runtime.m; sourceTree = "<group>"; };
 		4D2F72DF24443DA4008B791F /* UIView+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Color.h"; sourceTree = "<group>"; };
@@ -158,8 +191,11 @@
 		4D324726249C89DB00BADF29 /* BFLearniOSEsayUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearniOSEsayUIViewController.m; sourceTree = "<group>"; };
 		4D324728249C8CF100BADF29 /* BFSliceImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFSliceImageView.h; sourceTree = "<group>"; };
 		4D324729249C8CF100BADF29 /* BFSliceImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFSliceImageView.m; sourceTree = "<group>"; };
+		4D32925A265A4A6F00EF11A8 /* BFLearnSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFLearnSplitViewController.swift; sourceTree = "<group>"; };
 		4D337946249E2642003900F8 /* BFLearnMediaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnMediaViewController.h; sourceTree = "<group>"; };
 		4D337947249E2642003900F8 /* BFLearnMediaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnMediaViewController.m; sourceTree = "<group>"; };
+		4D360DA92657652F006637DC /* BFDataAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFDataAnalytics.h; sourceTree = "<group>"; };
+		4D360DAA2657652F006637DC /* BFDataAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFDataAnalytics.m; sourceTree = "<group>"; };
 		4D38082324E2735800DFE64B /* BFLearnGCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnGCDTimer.h; sourceTree = "<group>"; };
 		4D38082424E2735800DFE64B /* BFLearnGCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnGCDTimer.m; sourceTree = "<group>"; };
 		4D3809AE24E3952000DFE64B /* BFLearnCacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnCacheViewController.h; sourceTree = "<group>"; };
@@ -168,6 +204,19 @@
 		4D380AFD24E3EA3E00DFE64B /* BFLearnARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnARCViewController.m; sourceTree = "<group>"; };
 		4D380C4A24E5292400DFE64B /* BFlearnNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFlearnNetworkViewController.h; sourceTree = "<group>"; };
 		4D380C4B24E5292400DFE64B /* BFlearnNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFlearnNetworkViewController.m; sourceTree = "<group>"; };
+		4D3FD8F92614583900743A4D /* BFTestPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTestPerson.h; sourceTree = "<group>"; };
+		4D3FD8FA2614583900743A4D /* BFTestPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTestPerson.m; sourceTree = "<group>"; };
+		4D3FD8FE2614584800743A4D /* BFTestEmployer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTestEmployer.h; sourceTree = "<group>"; };
+		4D3FD8FF2614584800743A4D /* BFTestEmployer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTestEmployer.m; sourceTree = "<group>"; };
+		4D3FD9022614675600743A4D /* BFTestAnimationVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTestAnimationVIew.h; sourceTree = "<group>"; };
+		4D3FD9032614675600743A4D /* BFTestAnimationVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTestAnimationVIew.m; sourceTree = "<group>"; };
+		4D3FD9222616C7BC00743A4D /* BFTestCollectionLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTestCollectionLayout.h; sourceTree = "<group>"; };
+		4D3FD9232616C7BC00743A4D /* BFTestCollectionLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTestCollectionLayout.m; sourceTree = "<group>"; };
+		4D3FD9272616EBBD00743A4D /* testCollectionModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testCollectionModel.json; sourceTree = "<group>"; };
+		4D3FD9452616F01A00743A4D /* BFTestCollectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTestCollectionModel.h; sourceTree = "<group>"; };
+		4D3FD9462616F01A00743A4D /* BFTestCollectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTestCollectionModel.m; sourceTree = "<group>"; };
+		4D3FD9492616F63200743A4D /* BFTestCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTestCollectionViewCell.h; sourceTree = "<group>"; };
+		4D3FD94A2616F63200743A4D /* BFTestCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTestCollectionViewCell.m; sourceTree = "<group>"; };
 		4D4A3BA0243D993700696FD2 /* BFModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFModel.h; sourceTree = "<group>"; };
 		4D4B32492435E6A100394393 /* BFLearnIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFLearnIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4B324C2435E6A100394393 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -192,9 +241,23 @@
 		4D4DA1BD25C1435100918813 /* BFLearnIGlistLabelCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnIGlistLabelCollectionViewCell.m; sourceTree = "<group>"; };
 		4D4DA1C025C14A4900918813 /* BFIGlistModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFIGlistModel.h; sourceTree = "<group>"; };
 		4D4DA1C125C14A4900918813 /* BFIGlistModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFIGlistModel.m; sourceTree = "<group>"; };
+		4D554295266374C200194C00 /* BFAutoTrackUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAutoTrackUtils.h; sourceTree = "<group>"; };
+		4D554296266374C200194C00 /* BFAutoTrackUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAutoTrackUtils.m; sourceTree = "<group>"; };
+		4D5542992663759F00194C00 /* BFAutoTrackViewControllerProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAutoTrackViewControllerProperty.h; sourceTree = "<group>"; };
+		4D55429A2663759F00194C00 /* BFAutoTrackViewControllerProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAutoTrackViewControllerProperty.m; sourceTree = "<group>"; };
+		4D55429D2663775300194C00 /* BFASConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFASConstant.m; sourceTree = "<group>"; };
+		4D595421260C83A700FF4A99 /* BFLearnIGListDynamicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFLearnIGListDynamicCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D5A1A1D2679DC6100FEDE53 /* NSObject+BFAnalyticisDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BFAnalyticisDelegate.h"; sourceTree = "<group>"; };
+		4D5A1A1E2679DC6100FEDE53 /* NSObject+BFAnalyticisDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BFAnalyticisDelegate.m"; sourceTree = "<group>"; };
+		4D5A1B11267A07EC00FEDE53 /* UIView+BFAutoTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+BFAutoTrack.h"; sourceTree = "<group>"; };
+		4D5A1B12267A07EC00FEDE53 /* UIView+BFAutoTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+BFAutoTrack.m"; sourceTree = "<group>"; };
+		4D5A1B15267A115600FEDE53 /* BFDConfigOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFDConfigOptions.h; sourceTree = "<group>"; };
+		4D5A1B16267A115600FEDE53 /* BFDConfigOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFDConfigOptions.m; sourceTree = "<group>"; };
 		4D5BF2AC97961D9464F9393F /* Pods_BFLearnIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BFLearnIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6808CC25A30C6F00315700 /* BFLearnUIBasicTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnUIBasicTestViewController.h; sourceTree = "<group>"; };
 		4D6808CD25A30C6F00315700 /* BFLearnUIBasicTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnUIBasicTestViewController.m; sourceTree = "<group>"; };
+		4D6942F32678920200BCC8F0 /* UIGestureRecognizer+BFAutoTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+BFAutoTrack.h"; sourceTree = "<group>"; };
+		4D6942F42678920200BCC8F0 /* UIGestureRecognizer+BFAutoTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+BFAutoTrack.m"; sourceTree = "<group>"; };
 		4D6B6C7424DA52320018B6EC /* BFLearnUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnUIView.h; sourceTree = "<group>"; };
 		4D6B6C7524DA52320018B6EC /* BFLearnUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnUIView.m; sourceTree = "<group>"; };
 		4D6B6C7B24DA81860018B6EC /* BFLearnRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnRootViewController.h; sourceTree = "<group>"; };
@@ -214,6 +277,9 @@
 		4D84F4BB2466AFF400454C2D /* BFTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFTableViewCell.swift; sourceTree = "<group>"; };
 		4D87FBC9251C9197004E25FB /* UITableViewCell+CellShadows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CellShadows.h"; sourceTree = "<group>"; };
 		4D87FBCA251C9197004E25FB /* UITableViewCell+CellShadows.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CellShadows.m"; sourceTree = "<group>"; };
+		4D883042260D8EE000DA07EC /* BFTestIGListKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFTestIGListKitViewController.swift; sourceTree = "<group>"; };
+		4D883045260DB4CF00DA07EC /* BTTestIGListKitSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTTestIGListKitSectionController.swift; sourceTree = "<group>"; };
+		4D883048260DB4F400DA07EC /* BGTestIGListKItModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGTestIGListKItModel.swift; sourceTree = "<group>"; };
 		4D89E2C924ECFACE007851D1 /* BFLearnSandBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnSandBoxViewController.h; sourceTree = "<group>"; };
 		4D89E2CA24ECFACE007851D1 /* BFLearnSandBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnSandBoxViewController.m; sourceTree = "<group>"; };
 		4D89E2CC24ED13F1007851D1 /* BFTestFileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTestFileModel.h; sourceTree = "<group>"; };
@@ -232,12 +298,26 @@
 		4DAA347825187EAA002A4852 /* BFLearnGCDCommoinUnility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnGCDCommoinUnility.m; sourceTree = "<group>"; };
 		4DAA562B24B89D6F00D1D412 /* BFLearnBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnBlockViewController.h; sourceTree = "<group>"; };
 		4DAA562C24B89D6F00D1D412 /* BFLearnBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnBlockViewController.m; sourceTree = "<group>"; };
+		4DB6E253261C391700764E9D /* BFLearniOSBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearniOSBannerViewController.h; sourceTree = "<group>"; };
+		4DB6E254261C391700764E9D /* BFLearniOSBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearniOSBannerViewController.m; sourceTree = "<group>"; };
+		4DB6E25D261C395300764E9D /* BFLearnBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnBannerView.h; sourceTree = "<group>"; };
+		4DB6E25E261C395300764E9D /* BFLearnBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnBannerView.m; sourceTree = "<group>"; };
+		4DB6E266261C501500764E9D /* BFLearnBannerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnBannerCollectionViewCell.h; sourceTree = "<group>"; };
+		4DB6E267261C501500764E9D /* BFLearnBannerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnBannerCollectionViewCell.m; sourceTree = "<group>"; };
+		4DB6E26A261C52D800764E9D /* BFBannerPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFBannerPageControl.h; sourceTree = "<group>"; };
+		4DB6E26B261C52D800764E9D /* BFBannerPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFBannerPageControl.m; sourceTree = "<group>"; };
+		4DB6E26E261C5B5F00764E9D /* BFLearnAnimatedDotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearnAnimatedDotView.h; sourceTree = "<group>"; };
+		4DB6E26F261C5B5F00764E9D /* BFLearnAnimatedDotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearnAnimatedDotView.m; sourceTree = "<group>"; };
 		4DBF663D2562563A00CD477A /* BFLearniOSGradientLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearniOSGradientLayerViewController.h; sourceTree = "<group>"; };
 		4DBF663E2562563A00CD477A /* BFLearniOSGradientLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearniOSGradientLayerViewController.m; sourceTree = "<group>"; };
 		4DBF66422562575C00CD477A /* BFGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFGradientView.h; sourceTree = "<group>"; };
 		4DBF66432562575C00CD477A /* BFGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFGradientView.m; sourceTree = "<group>"; };
+		4DCAF12F264688C900FD4960 /* NSArray+BFSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+BFSafe.h"; sourceTree = "<group>"; };
+		4DCAF130264688C900FD4960 /* NSArray+BFSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BFSafe.m"; sourceTree = "<group>"; };
 		4DD579A124597F7D00F89E81 /* BFLearniOSUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLearniOSUIViewController.h; sourceTree = "<group>"; };
 		4DD579A224597F7D00F89E81 /* BFLearniOSUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFLearniOSUIViewController.m; sourceTree = "<group>"; };
+		4DD7FE7526452A1300D72C6F /* Lender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lender.h; sourceTree = "<group>"; };
+		4DD7FE7626452A1400D72C6F /* Lender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lender.m; sourceTree = "<group>"; };
 		4DFC8EF025357BFF0041F4F3 /* Farther+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Farther+Test.h"; sourceTree = "<group>"; };
 		4DFC8EF125357BFF0041F4F3 /* Farther+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Farther+Test.m"; sourceTree = "<group>"; };
 		4DFC8EF425358C0E0041F4F3 /* NSObject+BFSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BFSwizzle.h"; sourceTree = "<group>"; };
@@ -340,6 +420,30 @@
 			path = BFPlayer;
 			sourceTree = "<group>";
 		};
+		4D360DA8265764B0006637DC /* BFDataAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				4D360DA92657652F006637DC /* BFDataAnalytics.h */,
+				4D360DAA2657652F006637DC /* BFDataAnalytics.m */,
+				4D554295266374C200194C00 /* BFAutoTrackUtils.h */,
+				4D554296266374C200194C00 /* BFAutoTrackUtils.m */,
+				4D5542992663759F00194C00 /* BFAutoTrackViewControllerProperty.h */,
+				4D55429A2663759F00194C00 /* BFAutoTrackViewControllerProperty.m */,
+				4D55429D2663775300194C00 /* BFASConstant.m */,
+				4D1DFBEE2664E5C5000ED8E8 /* BFValidator.h */,
+				4D1DFBEF2664E5C5000ED8E8 /* BFValidator.m */,
+				4D6942F32678920200BCC8F0 /* UIGestureRecognizer+BFAutoTrack.h */,
+				4D6942F42678920200BCC8F0 /* UIGestureRecognizer+BFAutoTrack.m */,
+				4D5A1A1D2679DC6100FEDE53 /* NSObject+BFAnalyticisDelegate.h */,
+				4D5A1A1E2679DC6100FEDE53 /* NSObject+BFAnalyticisDelegate.m */,
+				4D5A1B11267A07EC00FEDE53 /* UIView+BFAutoTrack.h */,
+				4D5A1B12267A07EC00FEDE53 /* UIView+BFAutoTrack.m */,
+				4D5A1B15267A115600FEDE53 /* BFDConfigOptions.h */,
+				4D5A1B16267A115600FEDE53 /* BFDConfigOptions.m */,
+			);
+			path = BFDataAnalytics;
+			sourceTree = "<group>";
+		};
 		4D3809AD24E3950400DFE64B /* BFLearnCache */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,6 +458,7 @@
 			children = (
 				4D380AFC24E3EA3E00DFE64B /* BFLearnARCViewController.h */,
 				4D380AFD24E3EA3E00DFE64B /* BFLearnARCViewController.m */,
+				4D3FD8F82614581400743A4D /* testClass */,
 			);
 			path = BFLearnARC;
 			sourceTree = "<group>";
@@ -365,6 +470,34 @@
 				4D380C4B24E5292400DFE64B /* BFlearnNetworkViewController.m */,
 			);
 			path = BFLearnNetwork;
+			sourceTree = "<group>";
+		};
+		4D3FD8F82614581400743A4D /* testClass */ = {
+			isa = PBXGroup;
+			children = (
+				4D3FD8F92614583900743A4D /* BFTestPerson.h */,
+				4D3FD8FA2614583900743A4D /* BFTestPerson.m */,
+				4D3FD8FE2614584800743A4D /* BFTestEmployer.h */,
+				4D3FD8FF2614584800743A4D /* BFTestEmployer.m */,
+				4D3FD9022614675600743A4D /* BFTestAnimationVIew.h */,
+				4D3FD9032614675600743A4D /* BFTestAnimationVIew.m */,
+			);
+			path = testClass;
+			sourceTree = "<group>";
+		};
+		4D3FD9212616C70000743A4D /* iOSTestCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4D3FD9222616C7BC00743A4D /* BFTestCollectionLayout.h */,
+				4D3FD9232616C7BC00743A4D /* BFTestCollectionLayout.m */,
+				4D3FD9452616F01A00743A4D /* BFTestCollectionModel.h */,
+				4D3FD9462616F01A00743A4D /* BFTestCollectionModel.m */,
+				4D3FD9492616F63200743A4D /* BFTestCollectionViewCell.h */,
+				4D3FD94A2616F63200743A4D /* BFTestCollectionViewCell.m */,
+				4D3FD9272616EBBD00743A4D /* testCollectionModel.json */,
+				4DB6E257261C392700764E9D /* BannerView */,
+			);
+			path = iOSTestCollectionView;
 			sourceTree = "<group>";
 		};
 		4D4B32402435E6A000394393 = {
@@ -392,10 +525,13 @@
 				4D4B324D2435E6A100394393 /* AppDelegate.m */,
 				4D4B32522435E6A100394393 /* ViewController.h */,
 				4D4B32532435E6A100394393 /* ViewController.m */,
+				4D2DCB99266626AA0076A9A2 /* BFSoundPlayer.h */,
+				4D2DCB9A266626AA0076A9A2 /* BFSoundPlayer.m */,
 				4D844D712514C0B600FF063F /* BFLearniOSSomeSimpleManager.h */,
 				4D844D722514C0B600FF063F /* BFLearniOSSomeSimpleManager.m */,
 				4D201E2525EF7C380069DF7F /* BFTestSwiftViewController.swift */,
 				4D201E2225EF6ACD0069DF7F /* BFTestSwiftView.swift */,
+				4D360DA8265764B0006637DC /* BFDataAnalytics */,
 				4D4DA19725C1199700918813 /* BFLearnIGlistKit */,
 				4D89E2C824ECFAAD007851D1 /* BFLearnSandBox */,
 				4D380C4924E528FF00DFE64B /* BFLearnNetwork */,
@@ -483,6 +619,9 @@
 				4D4DA19D25C1276D00918813 /* BFLearnIGListKitViewController.m */,
 				4D4DA1B825C1432000918813 /* BFLearnLabelSectionController.h */,
 				4D4DA1B925C1432000918813 /* BFLearnLabelSectionController.m */,
+				4D883042260D8EE000DA07EC /* BFTestIGListKitViewController.swift */,
+				4D883045260DB4CF00DA07EC /* BTTestIGListKitSectionController.swift */,
+				4D883048260DB4F400DA07EC /* BGTestIGListKItModel.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -499,6 +638,7 @@
 			children = (
 				4D4DA1BC25C1435100918813 /* BFLearnIGlistLabelCollectionViewCell.h */,
 				4D4DA1BD25C1435100918813 /* BFLearnIGlistLabelCollectionViewCell.m */,
+				4D595421260C83A700FF4A99 /* BFLearnIGListDynamicCollectionViewCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -589,17 +729,46 @@
 				4D2F72E024443DA4008B791F /* UIView+Color.m */,
 				4D8EBE352440723E00137C78 /* BFRuntime.h */,
 				4D6C3D152448423700466FC8 /* Farther.h */,
+				4D6C3D162448423700466FC8 /* Farther.m */,
+				4DD7FE7526452A1300D72C6F /* Lender.h */,
+				4DD7FE7626452A1400D72C6F /* Lender.m */,
 				4DFC8EF025357BFF0041F4F3 /* Farther+Test.h */,
 				4DFC8EF125357BFF0041F4F3 /* Farther+Test.m */,
-				4D6C3D162448423700466FC8 /* Farther.m */,
 				4D6C3D182448424600466FC8 /* Son.h */,
 				4D6C3D192448424600466FC8 /* Son.m */,
 				4D2BCEDA244EB4A700B3BD6C /* BFAspect.h */,
 				4D2BCEDB244EB4A700B3BD6C /* BFAspect.m */,
 				4D02381324AB35EA00DFF568 /* BFRuntimeViewController.h */,
 				4D02381424AB35EA00DFF568 /* BFRuntimeViewController.m */,
+				4DCAF12F264688C900FD4960 /* NSArray+BFSafe.h */,
+				4DCAF130264688C900FD4960 /* NSArray+BFSafe.m */,
 			);
 			path = Runtime;
+			sourceTree = "<group>";
+		};
+		4DB6E257261C392700764E9D /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+				4DB6E253261C391700764E9D /* BFLearniOSBannerViewController.h */,
+				4DB6E254261C391700764E9D /* BFLearniOSBannerViewController.m */,
+				4DB6E25B261C393400764E9D /* BFBannerView */,
+			);
+			path = BannerView;
+			sourceTree = "<group>";
+		};
+		4DB6E25B261C393400764E9D /* BFBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				4DB6E25D261C395300764E9D /* BFLearnBannerView.h */,
+				4DB6E25E261C395300764E9D /* BFLearnBannerView.m */,
+				4DB6E266261C501500764E9D /* BFLearnBannerCollectionViewCell.h */,
+				4DB6E267261C501500764E9D /* BFLearnBannerCollectionViewCell.m */,
+				4DB6E26A261C52D800764E9D /* BFBannerPageControl.h */,
+				4DB6E26B261C52D800764E9D /* BFBannerPageControl.m */,
+				4DB6E26E261C5B5F00764E9D /* BFLearnAnimatedDotView.h */,
+				4DB6E26F261C5B5F00764E9D /* BFLearnAnimatedDotView.m */,
+			);
+			path = BFBannerView;
 			sourceTree = "<group>";
 		};
 		4DBF663C2562561200CD477A /* IOSGrandientLayer */ = {
@@ -640,6 +809,8 @@
 				4D6B6C8224DB10B30018B6EC /* BFLearnScrollViewController.m */,
 				4D6808CC25A30C6F00315700 /* BFLearnUIBasicTestViewController.h */,
 				4D6808CD25A30C6F00315700 /* BFLearnUIBasicTestViewController.m */,
+				4D32925A265A4A6F00EF11A8 /* BFLearnSplitViewController.swift */,
+				4D3FD9212616C70000743A4D /* iOSTestCollectionView */,
 				4DBF663C2562561200CD477A /* IOSGrandientLayer */,
 				4D84F4B72466A88300454C2D /* IOSUITestView */,
 			);
@@ -725,6 +896,7 @@
 			files = (
 				4D4B325C2435E6A200394393 /* LaunchScreen.storyboard in Resources */,
 				4D4B32592435E6A200394393 /* Assets.xcassets in Resources */,
+				4D3FD9282616EBBD00743A4D /* testCollectionModel.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,6 +954,8 @@
 				4DFC8EF225357BFF0041F4F3 /* Farther+Test.m in Sources */,
 				4D3031C025C2A2C600AB1483 /* BFIGListLearnAdapter.m in Sources */,
 				4D2BD1282452BC6400B3BD6C /* BFGCDLearnLock.m in Sources */,
+				4D6942F52678920200BCC8F0 /* UIGestureRecognizer+BFAutoTrack.m in Sources */,
+				4DCAF131264688C900FD4960 /* NSArray+BFSafe.m in Sources */,
 				4D6C3D1A2448424600466FC8 /* Son.m in Sources */,
 				4D2BD02E2451729700B3BD6C /* BFLearnBlock.m in Sources */,
 				4D4DA19E25C1276D00918813 /* BFLearnIGListKitViewController.m in Sources */,
@@ -789,6 +963,7 @@
 				4D8EA51A244992C800BB51E6 /* JSNativeLearn.m in Sources */,
 				4D84F4BA2466A8AE00454C2D /* BFCollectionViewCell.swift in Sources */,
 				4D10CC90256F514B00D75C76 /* UIView+Radius.m in Sources */,
+				4DB6E26C261C52D800764E9D /* BFBannerPageControl.m in Sources */,
 				4D337948249E2642003900F8 /* BFLearnMediaViewController.m in Sources */,
 				4D4B32542435E6A100394393 /* ViewController.m in Sources */,
 				4D2F72DB24442793008B791F /* BFTest2Runtime.m in Sources */,
@@ -796,6 +971,8 @@
 				4D4B32682435E6B900394393 /* NSObject+BFModel.m in Sources */,
 				4D0659CE24BD590800001DAB /* BFLearnDebugHackViewController.m in Sources */,
 				4D10CC92256F514B00D75C76 /* UITableView+CornerRadius.m in Sources */,
+				4D3FD8FB2614583900743A4D /* BFTestPerson.m in Sources */,
+				4D3FD9472616F01A00743A4D /* BFTestCollectionModel.m in Sources */,
 				4D4DA1C225C14A4900918813 /* BFIGlistModel.m in Sources */,
 				4D02380924AB348100DFF568 /* BFLearnTableViewViewController.m in Sources */,
 				4DAA562D24B89D6F00D1D412 /* BFLearnBlockViewController.m in Sources */,
@@ -804,7 +981,9 @@
 				4D02380C24AB348F00DFF568 /* BFLearnCollectionViewController.m in Sources */,
 				4D3031F025C40FFD00AB1483 /* BFIGListLearnSectionMap.m in Sources */,
 				4D02381524AB35EA00DFF568 /* BFRuntimeViewController.m in Sources */,
+				4DB6E270261C5B5F00764E9D /* BFLearnAnimatedDotView.m in Sources */,
 				4D10176D24D02F21003A09D5 /* BFLearnFoundationViewController.m in Sources */,
+				4D55429B2663759F00194C00 /* BFAutoTrackViewControllerProperty.m in Sources */,
 				4D2F72E7244454F4008B791F /* BFWork.m in Sources */,
 				4D4B324E2435E6A100394393 /* AppDelegate.m in Sources */,
 				4D02381224AB34B200DFF568 /* BFLearnLabelViewController.m in Sources */,
@@ -816,39 +995,60 @@
 				4D0659CA24BC704400001DAB /* BFLearnApmViewController.m in Sources */,
 				4DBF66442562575C00CD477A /* BFGradientView.m in Sources */,
 				4DD579A324597F7D00F89E81 /* BFLearniOSUIViewController.m in Sources */,
+				4DB6E255261C391700764E9D /* BFLearniOSBannerViewController.m in Sources */,
 				4D89E2CB24ECFACE007851D1 /* BFLearnSandBoxViewController.m in Sources */,
 				4D4B326C2435E80B00394393 /* BFGCDSemaphoreLearn.m in Sources */,
 				4D380C4C24E5292400DFE64B /* BFlearnNetworkViewController.m in Sources */,
 				4D87FBCB251C9197004E25FB /* UITableViewCell+CellShadows.m in Sources */,
+				4D883049260DB4F400DA07EC /* BGTestIGListKItModel.swift in Sources */,
+				4D5A1B13267A07EC00FEDE53 /* UIView+BFAutoTrack.m in Sources */,
 				4DBF663F2562563A00CD477A /* BFLearniOSGradientLayerViewController.m in Sources */,
 				4D201E2325EF6ACD0069DF7F /* BFTestSwiftView.swift in Sources */,
 				4D324727249C89DB00BADF29 /* BFLearniOSEsayUIViewController.m in Sources */,
 				4DFDF56E24B6F9E200167506 /* BFGCDOperationLearn.m in Sources */,
+				4D3FD9042614675600743A4D /* BFTestAnimationVIew.m in Sources */,
 				4D4DA1A225C135CC00918813 /* BFLearnLayoutTableViewCell.m in Sources */,
+				4D3FD94B2616F63200743A4D /* BFTestCollectionViewCell.m in Sources */,
+				4D1DFBF02664E5C5000ED8E8 /* BFValidator.m in Sources */,
 				4D3031F425C413C300AB1483 /* BFLGListDisplayHandler.m in Sources */,
 				4D4DA1BE25C1435100918813 /* BFLearnIGlistLabelCollectionViewCell.m in Sources */,
 				4D2F72EA244456B9008B791F /* BFTestModel.m in Sources */,
 				4D380AFE24E3EA3F00DFE64B /* BFLearnARCViewController.m in Sources */,
 				4D84F4BC2466AFF400454C2D /* BFTableViewCell.swift in Sources */,
+				4D5A1A1F2679DC6100FEDE53 /* NSObject+BFAnalyticisDelegate.m in Sources */,
 				4D89E2CE24ED13F1007851D1 /* BFTestFileModel.m in Sources */,
+				4D3FD9242616C7BC00743A4D /* BFTestCollectionLayout.m in Sources */,
 				4D32472A249C8CF100BADF29 /* BFSliceImageView.m in Sources */,
+				4D32925B265A4A6F00EF11A8 /* BFLearnSplitViewController.swift in Sources */,
 				4D6B6C7D24DA81860018B6EC /* BFLearnRootViewController.m in Sources */,
+				4D360DAB2657652F006637DC /* BFDataAnalytics.m in Sources */,
+				4D595422260C83A700FF4A99 /* BFLearnIGListDynamicCollectionViewCell.swift in Sources */,
 				4D844D732514C0B600FF063F /* BFLearniOSSomeSimpleManager.m in Sources */,
 				4D38082524E2735800DFE64B /* BFLearnGCDTimer.m in Sources */,
 				4D8A877D24C812C000DFDA4A /* BFLearnLaunchViewController.m in Sources */,
+				4D2DCB9B266626AA0076A9A2 /* BFSoundPlayer.m in Sources */,
 				4D3031EC25C40C2D00AB1483 /* BFIGListCollectionContext.m in Sources */,
+				4D883043260D8EE000DA07EC /* BFTestIGListKitViewController.swift in Sources */,
+				4D3FD9002614584800743A4D /* BFTestEmployer.m in Sources */,
+				4D883046260DB4CF00DA07EC /* BTTestIGListKitSectionController.swift in Sources */,
 				4D2F74372445973B008B791F /* BFClassInfo.m in Sources */,
 				4D95E3E2246A359B007E6470 /* MyCatModel.swift in Sources */,
+				4D55429E2663775300194C00 /* BFASConstant.m in Sources */,
 				4D02380F24AB34A100DFF568 /* BFLearnWkWebviewViewController.m in Sources */,
+				4DB6E268261C501500764E9D /* BFLearnBannerCollectionViewCell.m in Sources */,
 				4D2BCEDC244EB4A700B3BD6C /* BFAspect.m in Sources */,
 				4D2F743D2445A007008B791F /* BFModelMeta.m in Sources */,
+				4D5A1B17267A115600FEDE53 /* BFDConfigOptions.m in Sources */,
+				4DD7FE7726452A1400D72C6F /* Lender.m in Sources */,
 				4D02380324AB2B9100DFF568 /* BFLearnRunLoopViewController.m in Sources */,
 				4D3031E825C40A4800AB1483 /* BFIGListLearnAdapterInternal.m in Sources */,
 				4D6C3D172448423700466FC8 /* Farther.m in Sources */,
+				4D554297266374C200194C00 /* BFAutoTrackUtils.m in Sources */,
 				4D2F72E124443DA4008B791F /* UIView+Color.m in Sources */,
 				4D3809B024E3952000DFE64B /* BFLearnCacheViewController.m in Sources */,
 				4D3031DC25C2B09200AB1483 /* BFIGListLearnSectionController.m in Sources */,
 				4DFC8EF625358C0E0041F4F3 /* NSObject+BFSwizzle.m in Sources */,
+				4DB6E25F261C395300764E9D /* BFLearnBannerView.m in Sources */,
 				4D6808CE25A30C6F00315700 /* BFLearnUIBasicTestViewController.m in Sources */,
 				4D8A878124C8136C00DFDA4A /* BFLearnLayoutViewController.m in Sources */,
 			);

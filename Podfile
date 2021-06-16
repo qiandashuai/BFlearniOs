@@ -16,7 +16,7 @@ target 'BFLearnIOS' do
   pod 'Masonry'
   pod 'fishhook'
   pod 'YYCache'
-  pod 'SDWebImage'
+  pod 'SDWebImage', '~> 5.0'
   pod 'Logan', '~> 1.2.5'
   pod 'SensorsAnalyticsSDK', :subspecs => ['DISABLE_UIWEBVIEW']
   pod 'WechatOpenSDK'
@@ -26,5 +26,12 @@ target 'BFLearnIOS' do
   pod 'SwiftyJSON', '~> 4.0'
   pod 'Dollar', '~> 9.0.0'
   pod 'R.swift'
-
+  pod 'FBRetainCycleDetector'
+  pod 'FBMemoryProfiler'
+  pod 'FBAllocationTracker'
+  pod 'JTAppleCalendar', '~> 8.0.2'
+  pod 'CalendarKit‘
+  pod 'SDAutoLayout', '~> 2.2.1'
+  pod 'AFNetworking', '~> 4.0'
+  
 end

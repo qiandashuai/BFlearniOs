@@ -7,26 +7,39 @@
 //
 
 #import "BFLearnUIBasicTestViewController.h"
+#import <SDWebImage/SDWebImage.h>
+#import <Masonry/Masonry.h>
 
 @interface BFLearnUIBasicTestViewController ()
 
+@property(nonatomic, strong) UIImageView *imageView;
+@property(nonatomic, strong) UIView *testView;
+ 
 @end
 
 @implementation BFLearnUIBasicTestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self.view addSubview:self.testView];
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UIImageView *)iamgeView {
+    if (!_imageView) {
+        _imageView = [[UIImageView alloc]initWithFrame:CGRectZero];
+    }
+    return _imageView;
 }
-*/
+
+
+- (UIView *)testView {
+    if (!_testView) {
+        _testView = [[UIView alloc]initWithFrame:CGRectZero];
+        _testView.backgroundColor = [UIColor redColor];
+    }
+    return _testView;
+}
 
 @end

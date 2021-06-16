@@ -25,6 +25,11 @@
 #import "BFLearnIGListKitViewController.h"
 #import <Aspects/Aspects.h>
 #import "BFLearnIOS-Swift.h"
+#import <FBRetainCycleDetector/FBRetainCycleDetector.h>
+#import "Farther.h"
+#import "NSArray+BFSafe.h"
+#import "Son.h"
+
 
 
 static void qh_viewDidLoad(UIViewController *kvo_self, SEL _sel) {
@@ -48,6 +53,25 @@ static void qh_viewDidLoad(UIViewController *kvo_self, SEL _sel) {
     
 }
 
+
+@interface testFarther : NSObject
+
+@end
+
+@implementation testFarther
+
+
+@end
+
+@interface testSon : testFarther
+
+@end
+
+@implementation testSon
+
+
+@end
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource, UITableViewDataSourcePrefetching>
 
 @property(nonatomic, strong) UITableView *tableView;
@@ -57,17 +81,190 @@ static void qh_viewDidLoad(UIViewController *kvo_self, SEL _sel) {
 @end
 
 
+
+__weak id reference = nil;
+
 @implementation ViewController
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     qh_viewDidLoad(self, @selector(viewDidLoad));
-    self.LearnList = @[@"UI进阶",@"GCD进阶",@"RunLoop",@"Runtime",@"BLOCK详解",@"性能监控",@"Debug Hacks",@"启动流程",@"基础Foundaion",@"缓存",@"垃圾回收",@"网络请求",@"文件操作",@"IGListKit",@"testSwift"];
+    self.LearnList = @[@"UI进阶",@"GCD进阶",@"RunLoop",@"Runtime",@"BLOCK详解",@"性能监控",@"Debug Hacks",@"启动流程",@"基础Foundaion",@"缓存",@"内存管理",@"网络请求",@"文件操作",@"IGListKit",@"testSwift"];
     [self.view addSubview:self.tableView];
+//    BOOL res1 = [(id)[NSObject class] isKindOfClass:[NSObject class]];
+//    BOOL res2 = [(id)[NSObject class] isMemberOfClass:object_getClass([NSObject class])];
+//    BOOL res3 = [(id)[Farther class] isMemberOfClass:[Farther class]];
+//    BOOL res4 = [(id)[Farther class] isKindOfClass:[Farther class]];
+//    BOOL res5 = [(id)[Son class] isKindOfClass:object_getClass([Farther class])];
+//    BOOL res6 = [(id)[Son class] isMemberOfClass:[Farther class]];
+//
+//    NSLog(@"%d ---- %d --- %d --- %d --- %d --- %d", res1, res2, res3, res4, res5, res6);
+    
+    /**
+     2021-06-02 15:20:14.927512+0800 BFLearnIOS[8464:267967] 1 ---- 1 --- 0 --- 0 --- 1 --- 0
+     */
+    
+    
+    
+//    Farther *farther = [Farther new];
+//
+//    Class currentClass = [Farther class];
+//    Class currentClass2 = object_getClass([Farther class]);
+//    Class currentClass3 = objc_getClass("Farther");
+//    BOOL res1 = class_isMetaClass(currentClass);
+//    BOOL res2 = class_isMetaClass(currentClass2);
+//    BOOL res3 = class_isMetaClass(currentClass3);
+//    NSLog(@"%p", currentClass);
+//    NSLog(@"%p", currentClass2);
+//    NSLog(@"%p", currentClass3);
+    //
+//    NSLog(@"%d ---- %d --- %d --- %d", res1, res2, res3, res4);
+//
+//    [NSThread detachNewThreadSelector:@selector(testThread) toTarget:self withObject:nil];
+//
+//    NSThread *mythread = [[NSThread alloc]initWithTarget:self selector:@selector(testThread2) object:nil];
+//    [mythread start];
+//    NSLog(@"test送emthing");
+    
+    /**
+     NSThread 执行完之后会立即退出,  此时在调用会crash
+     *** -[ViewController performSelector:onThread:withObject:waitUntilDone:modes:]: target thread exited while waiting for the perform
+     如果需要用就需要保活
+     */
+   // [self performSelector:@selector(testThread) onThread:mythread withObject:nil waitUntilDone:YES];
+    
+//    NSLog(@"这是妇儿保健阿巴斯的");
+
+    /**
+     viewDidLoad
+     2021-06-02 14:53:52.889257+0800 BFLearnIOS[7698:243524] 0x106dc2268
+     2021-06-02 14:53:52.889448+0800 BFLearnIOS[7698:243524] 0x106dc2290
+     2021-06-02 14:53:52.889536+0800 BFLearnIOS[7698:243524] 0x106dc2268
+     2021-06-02 14:53:52.889606+0800 BFLearnIOS[7698:243524] 0 ---- 1 --- 0
+     */
+    
+//    NSLog(@"%p", currentClass3);
+    
+//
+//    for ( int i = 0; i < 4; i ++) {
+//        NSLog(@"")
+//    }
+//
+//
+    
+//    BOOL res1 = [farther isKindOfClass:[Farther class]];
+//    BOOL res2 = [farther isMemberOfClass:[Farther class]];
+//
+//    object_getClass(farther);
+//
+//    NSLog(@"%d ---- %d", res1, res2);
+    
+    
+    
+//    NSArray *testList = @[@"a",@"b",@"c",@"d"];
+//
+//    NSLog(@"object = %@", farther);
+////
+////    [testList objectAtIndex:2];
+//
+//    NSMutableDictionary *testDict = [@{
+//        @"test1":@"这是1",
+//    } mutableCopy];
+//
+//    NSLog(@"%@",testDict);
+//
+//    NSDictionary *testDict2 = @{
+//        @"test2":@"这是2",
+//        @"test3":@"这是3",
+//        @"test4":@"这是4"
+//    };
+//
+//    NSLog(@"%@",testDict2);
+//
+//    [testDict addEntriesFromDictionary:testDict2];
+//    NSLog(@"%@",testDict);
+//
+//
+//    NSLog(@"%d  %d  %d  %d", res1, res2, res3, res4);
    // [self startTaskWithData:[NSData new]];
-    [self testSomeApi];
-    [self testAspect];
+//    [self testSomeApi];
+//    [self testAspect];
+    
+//    FBRetainCycleDetector *detector = [FBRetainCycleDetector new];
+//    [detector addCandidate:self];
+//    NSSet *retainCycles = [detector findRetainCycles];
+//    NSLog(@"%@", retainCycles);
+    
+  //  [self testGcd];
+}
+
+//+ (BOOL)bfisKindOfClass:(Class)cls {
+//    for (Class tls = object_getClass((id)self); tls; tls= tls->superclass) {
+//        if (cls == tls) {
+//            return  YES;
+//        }
+//    }
+//    return  NO;
+//}
+//
+//
+//+ (BOOL)bfisMemberOfClass:(Class)cls {
+//    return cls == object_getClass((id)self);
+//}
+//
+//
+//- (BOOL)bfisKindOfClass:(Class)cls {
+//    for (class tls = [self Class]; tls; tls = tls -> superclass) {
+//        if ( tls == cls) {
+//            return  YES;
+//        }
+//    }
+//    return  NO;
+//}
+//
+//
+//- (BOOL)bfisMemberOfClass:(Class)clks {
+//    return  clks == [self class];
+//}
+//
+
+
+
+
+
+//- (void)testGcd {
+//    NSArray *arrayTest = [[NSArray alloc]init];
+//    @try {
+//        NSLog(@"Object: %@", [arrayTest objectAtIndex:0]);
+//    } @catch (NSException *exception) {
+//        NSLog(@"NSException caught");
+//        NSLog(@"Name %@", exception.name);
+//        NSLog(@"Reason: %@", exception.reason);
+//    } @finally {
+//        NSLog(@"这是什么情况");
+//    }
+//}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"%@",reference);
+}
+
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    NSLog(@"%@", reference);
+}
+
+
+- (void)testThread {
+    NSLog(@"opkok");
+}
+
+- (void)testThread2 {
+    NSLog(@"opkokdad222");
 }
 
 - (void)testSomeApi {

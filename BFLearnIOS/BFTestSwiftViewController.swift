@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import JTAppleCalendar
 
 extension BFLearnUIView {
     func indexOfString(aString:String) -> Int? {
@@ -25,9 +26,9 @@ class BFTestSwiftViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.red;
-        let testView:BFLearnUIView = BFLearnUIView(frame: CGRect(origin: CGPoint(x: 100, y: 100), size: CGSize(width: 300, height: 300)));
-        view.addSubview(testView)
+        view.backgroundColor = UIColor.white;
+        
+        
     }
     
 

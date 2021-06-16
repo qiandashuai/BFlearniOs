@@ -8,7 +8,9 @@
 
 #import "BFlearnNetworkViewController.h"
 
-@interface BFlearnNetworkViewController ()
+@interface BFlearnNetworkViewController ()<NSURLSessionDelegate, NSURLSessionDataDelegate>
+
+@property(nonatomic, strong)  NSURLSessionDataTask *task ;
 
 @end
 
@@ -16,16 +18,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
-    NSURLSession *session = [NSURLSession sharedSession];
-    NSURLSessionDataTask *dataTask = [session dataTaskWithURL:[NSURL URLWithString:@"192.168.0.10:8900"] completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        
-    }];
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate:self delegateQueue:nil];
     
-    [dataTask resume];
-    
+    self.task = [session dataTaskWithURL:[NSURL URLWithString:@"https://www.baidu.com"]];
+    [self.task resume];
+    [session finishTasksAndInvalidate];
 }
 
+- (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveResponse:(NSURLResponse *)response completionHandler:(void (^)(NSURLSessionResponseDisposition))completionHandler {
+    NSLog(@"这是什么呢哈哈");
+}
+
+- (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didFinishCollectingMetrics:(NSURLSessionTaskMetrics *)metrics {
+    NSLog(@"这是什么呢");
+}
 
 @end

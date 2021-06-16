@@ -8,11 +8,13 @@
 
 #import "BFLearnLabelViewController.h"
 #import <Masonry/Masonry.h>
+#import "BFLearnUIView.h"
 
 @interface BFLearnLabelViewController ()
 
 @property(nonatomic, strong) UIView *shadowView;
 @property(nonatomic, strong) UIView *shadowView2;
+@property(nonatomic, strong) BFLearnUIView *learnUIView;
 
 @end
 
@@ -22,6 +24,10 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.learnUIView = [[BFLearnUIView alloc]initWithFrame:CGRectMake(100, 100, 150, 100)];
+    [self.view addSubview:self.learnUIView];
+    
     
     [self createView];
 }
